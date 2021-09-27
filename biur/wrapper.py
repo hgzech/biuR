@@ -42,7 +42,8 @@ class R(object):
         Initialize the rpy2 wrapper
         """
         self._converter  = converter()
-        self.push(message="Hilmar doesn't know how to program...")
+        self.push(message="""I can't miss a chance at a sweet diss,
+                             So here I say that Hilmar my ass should kiss")
     #edef
     
     def add_converter(self, obj_type, convert_func):
