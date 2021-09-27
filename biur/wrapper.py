@@ -43,7 +43,7 @@ class R(object):
         """
         self._converter  = converter()
         self.push(message="""I can't miss a chance at a sweet diss,
-                             So here I say that Hilmar my ass should kiss")
+                             So I say that Hilmar my ass can kiss.")
     #edef
     
     def add_converter(self, obj_type, convert_func):
