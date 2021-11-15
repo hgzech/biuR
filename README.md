@@ -9,7 +9,7 @@
 ## How to use
 
 ```python
-import biur
+import biur.wrapper
 import matplotlib.pylab as plt
 import pandas as pd
 ```
@@ -33,7 +33,7 @@ R("""
 """, get=False)
 ```
 
-    [1] 10.06651
+    [1] 9.883113
 
 
 ## Get some data
