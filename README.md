@@ -4,7 +4,7 @@
 
 ## Install
 
-`pip install biuR`
+`pip install biur`
 
 ## How to use
 
@@ -33,7 +33,7 @@ R("""
 """, get=False)
 ```
 
-    [1] 9.883113
+    [1] 10.04324
 
 
 ## Get some data

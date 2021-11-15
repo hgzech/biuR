@@ -1,9 +1,9 @@
 package:
-  name: biuR
-  version: 0.0.2
+  name: biur
+  version: 0.0.1
 source:
-  sha256: 1774d76efc509cc51e2d8a326b3e6edd2ec0c9b7cf263f1991c61944f7ee308a
-  url: https://files.pythonhosted.org/packages/62/49/b23a66df2f5ee020f1e3d4f7d72b1c3b3332260e7b50e710f92940a76b77/biuR-0.0.2.tar.gz
+  sha256: 1965a3c2772c34575427702d9a36be375ac30795ae6365476005db091e4b9cef
+  url: https://files.pythonhosted.org/packages/08/1d/69f64a1d24395d912b9af902fef1e75748bb041497966fad183a9ea8f7de/biur-0.0.1.tar.gz
 about:
   dev_url: https://hgzech.github.io
   doc_url: https://hgzech.github.io
@@ -37,4 +37,4 @@ requirements:
   - matplotlib
 test:
   imports:
-  - biuR
+  - biur
