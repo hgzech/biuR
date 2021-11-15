@@ -1,5 +1,1 @@
-"""
-Some functionality to integrate with R
-"""
-
-from .wrapper import R
+__version__ = "0.0.1"
