@@ -1,0 +1,40 @@
+package:
+  name: biuR
+  version: 0.0.1
+source:
+  sha256: cd407fa9bec340753cd978547a92bd1f5f8b60dd7071eb63c3bdb29b287fd2cc
+  url: https://files.pythonhosted.org/packages/eb/03/f07c7cded8716848697e0beeeed948e599944ffbb1d8abff0d2239bbcd2d/biuR-0.0.1.tar.gz
+about:
+  dev_url: https://hgzech.github.io
+  doc_url: https://hgzech.github.io
+  home: https://hgzech.github.io
+  license: Apache Software
+  license_family: APACHE
+  summary: An extract of the BIU R functionality, without any dependency on biu
+build:
+  noarch: python
+  number: '0'
+  script: '{{ PYTHON }} -m pip install . -vv'
+extra:
+  recipe-maintainers:
+  - hgzech
+requirements:
+  host:
+  - pip
+  - python
+  - packaging
+  - rpy2
+  - numpy
+  - pandas
+  - matplotlib
+  run:
+  - pip
+  - python
+  - packaging
+  - rpy2
+  - numpy
+  - pandas
+  - matplotlib
+test:
+  imports:
+  - biuR
