@@ -14,8 +14,8 @@ index = {"R": "01_wrapper.ipynb",
 modules = ["wrapper.py",
            "converter.py"]
 
-doc_url = "https://hgzech.github.io/biuR/"
+doc_url = "https://hgzech.github.io/biur/"
 
-git_url = "https://github.com/hgzech/biuR/tree/main/"
+git_url = "https://github.com/hgzech/biur/tree/main/"
 
 def custom_doc_links(name): return None

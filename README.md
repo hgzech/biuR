@@ -9,7 +9,7 @@
 ## How to use
 
 ```python
-import biuR as biur
+import biur
 import matplotlib.pylab as plt
 import pandas as pd
 ```
