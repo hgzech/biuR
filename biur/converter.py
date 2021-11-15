@@ -44,7 +44,7 @@ def tuple2ri(T):
         raise ValueError("Expected tuple. Got '%s'." % str(type(T)))
     #fi
 
-    return robjects.numpy2ri.numpy2rpy(np.array(T))
+    return rpy2.robjects.numpy2ri.numpy2rpy(np.array(T))
 #edef
 
 # Cell

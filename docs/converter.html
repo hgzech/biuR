@@ -53,7 +53,7 @@ nb_path: "notebooks/02_converter.ipynb"
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="dict2ri" class="doc_header"><code>dict2ri</code><a href="https://github.com/hgzech/biuR/tree/main/biuR/converter.py#L16" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>dict2ri</code>(<strong><code>D</code></strong>)</p>
+<h4 id="dict2ri" class="doc_header"><code>dict2ri</code><a href="https://github.com/hgzech/biur/tree/main/biur/converter.py#L16" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>dict2ri</code>(<strong><code>D</code></strong>)</p>
 </blockquote>
 <p>Convert a dictionary to an R ListVector</p>
 
@@ -105,7 +105,7 @@ nb_path: "notebooks/02_converter.ipynb"
             test
             </th>
             <td>
-            <rpy2.rinterface.IntSexpVector object at 0x110c14a00> [RTYPES.INTSXP]
+            <rpy2.rinterface.IntSexpVector object at 0x18472b980> [RTYPES.INTSXP]
             </td>
           </tr>
         
@@ -133,7 +133,7 @@ nb_path: "notebooks/02_converter.ipynb"
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="ri2dict" class="doc_header"><code>ri2dict</code><a href="https://github.com/hgzech/biuR/tree/main/biuR/converter.py#L27" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>ri2dict</code>(<strong><code>D</code></strong>)</p>
+<h4 id="ri2dict" class="doc_header"><code>ri2dict</code><a href="https://github.com/hgzech/biur/tree/main/biur/converter.py#L27" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>ri2dict</code>(<strong><code>D</code></strong>)</p>
 </blockquote>
 <p>Convert a StrVector to a dictionary
 Note, that this conversion is not the inverse of dict2ri, as R values are always lists...
@@ -200,7 +200,7 @@ Thus, ri2dict(dict2ri({'a': 1})) -&gt; { 'a': [1]}</p>
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="tuple2ri" class="doc_header"><code>tuple2ri</code><a href="https://github.com/hgzech/biuR/tree/main/biuR/converter.py#L38" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>tuple2ri</code>(<strong><code>T</code></strong>)</p>
+<h4 id="tuple2ri" class="doc_header"><code>tuple2ri</code><a href="https://github.com/hgzech/biur/tree/main/biur/converter.py#L38" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>tuple2ri</code>(<strong><code>T</code></strong>)</p>
 </blockquote>
 <p>Convert a tuple to an array.
 It is first converted to a numpy array, and then, based on that to an R array</p>
@@ -244,7 +244,7 @@ It is first converted to a numpy array, and then, based on that to an R array</p
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;rpy2.rinterface.IntSexpVector object at 0x110c87140&gt; [RTYPES.INTSXP]</pre>
+<pre>&lt;rpy2.rinterface.IntSexpVector object at 0x184730140&gt; [RTYPES.INTSXP]</pre>
 </div>
 
 </div>
@@ -266,7 +266,7 @@ It is first converted to a numpy array, and then, based on that to an R array</p
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="none2ri" class="doc_header"><code>none2ri</code><a href="https://github.com/hgzech/biuR/tree/main/biuR/converter.py#L51" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>none2ri</code>(<strong><code>N</code></strong>)</p>
+<h4 id="none2ri" class="doc_header"><code>none2ri</code><a href="https://github.com/hgzech/biur/tree/main/biur/converter.py#L51" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>none2ri</code>(<strong><code>N</code></strong>)</p>
 </blockquote>
 <p>Convert a None type to NULL</p>
 
@@ -331,7 +331,7 @@ It is first converted to a numpy array, and then, based on that to an R array</p
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="datetime2ri" class="doc_header"><code>datetime2ri</code><a href="https://github.com/hgzech/biuR/tree/main/biuR/converter.py#L59" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>datetime2ri</code>(<strong><code>D</code></strong>)</p>
+<h4 id="datetime2ri" class="doc_header"><code>datetime2ri</code><a href="https://github.com/hgzech/biur/tree/main/biur/converter.py#L59" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>datetime2ri</code>(<strong><code>D</code></strong>)</p>
 </blockquote>
 <p>Convert a datetime object to an R object</p>
 
@@ -550,7 +550,7 @@ It is first converted to a numpy array, and then, based on that to an R array</p
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="dataframe_non_string_category_wrapper" class="doc_header"><code>dataframe_non_string_category_wrapper</code><a href="https://github.com/hgzech/biuR/tree/main/biuR/converter.py#L70" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>dataframe_non_string_category_wrapper</code>(<strong><code>S</code></strong>)</p>
+<h4 id="dataframe_non_string_category_wrapper" class="doc_header"><code>dataframe_non_string_category_wrapper</code><a href="https://github.com/hgzech/biur/tree/main/biur/converter.py#L70" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>dataframe_non_string_category_wrapper</code>(<strong><code>S</code></strong>)</p>
 </blockquote>
 <p>Convert a pandas series to an R object, but convert categories to strings, to overcome the following error:
     <code>Converting pandas "Category" series to R factor is only possible when categories are strings</code></p>
@@ -616,7 +616,7 @@ It is first converted to a numpy array, and then, based on that to an R array</p
 
 
 <div class="output_markdown rendered_html output_subarea ">
-<h4 id="converter" class="doc_header"><code>converter</code><a href="https://github.com/hgzech/biuR/tree/main/biuR/converter.py#L93" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>converter</code>()</p>
+<h4 id="converter" class="doc_header"><code>converter</code><a href="https://github.com/hgzech/biur/tree/main/biur/converter.py#L93" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>converter</code>()</p>
 </blockquote>
 <p>Return an rpy2 converter that automatically converts several formats</p>
 <p>Automatically added:</p>
